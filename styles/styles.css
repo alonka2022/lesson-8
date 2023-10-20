@@ -1,0 +1,138 @@
+.backround {
+    height: 570px; 
+    background-color: #F2F1FA;
+    background-image: url(.//css.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 50px;
+}
+
+.backround_top {
+    background-position: top;
+}
+
+.backround_right { 
+    background-position: right;
+}
+
+.backround_repeat {
+    background-repeat: initial;
+    background-position: top;
+}
+
+.backround_small-img, .backround_repeat-x, .background_repeat-center {
+    background-size: auto 50%;
+    background-position: initial;
+}
+
+.backround_repeat-x {
+    background-repeat: repeat-x;
+}
+
+.background_repeat-center {
+    background-repeat: repeat;
+}
+
+.backround_blok9 {
+    background-position: top;
+    background-size: auto 50%;
+    background-repeat: repeat;
+}
+
+.backround_blok10, .backround_blok11  {
+    background-size: auto 40%;
+    background-repeat: initial;
+}
+
+.backround_blok11 {
+    background-position: top;
+}
+
+.backround_blok12 {
+    background-size: auto 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.backround_blok13, .backround_blok14 {
+    background-size: auto 40%;
+    background-repeat: repeat-y;
+    background-position: right bottom;
+}
+
+.backround_blok14 {
+    background-position: top center;
+}
+
+.backround_blok15 {
+    background-image: url(.//css.png), url(./img2.jpg);
+    background-size: auto 50%, 100% auto;
+    background-position: center, center;
+}
+
+
+
+.body {
+background-color: #fff;
+color: #9795B5;
+}
+
+.header-nav, .companies {
+    background-color: #F9F9FF;
+}
+
+.account__col-title {
+    background-color: #F2F1FA;
+}
+
+.table__row1, .table__row3, .table__row5  {
+background-color: #FAFAFA;
+}
+
+.button {
+    background-color: #5D5A88;
+}
+
+.button_secondary{
+    background-color: transparent;
+}
+
+.button_primary {
+    color: white;
+}
+
+.features__item {
+    background-color: #F2F1FA;
+}
+
+.title-h2 {
+    color: #5D5A88;
+}
+
+.title-h2_black {
+    color: #1E285F;
+}
+
+.header__link:hover {
+    color: #1500FF;
+}
+
+.header__link:active {
+    color: #000000;
+}
+
+.button_primary:hover {
+    color: #5F5C7F;
+}
+
+.button_primary:active {
+    color: #A4A2C4;
+}
+
+.button_secondary:hover {
+    color: #F6F5FF;
+}
+
+.button_secondary:active {
+    color: #EFEEFB;
+}
