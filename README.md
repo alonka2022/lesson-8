@@ -1,3 +1,3 @@
-lesson_5
-Домашня робота старт CSS
-https://alonka2022.github.io/lesson_5/
+lesson_6
+Домашня робота додавання стилів
+ https://alonka2022.github.io/lesson_6/
