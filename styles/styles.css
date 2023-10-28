@@ -1,3 +1,217 @@
+
+:root {
+    --primary-color: #5D5A88;
+    --secondary-color: #9795B5;
+
+
+.body {
+    background-color: #fff;
+    color: var(--secondary-color);
+    font-family: "DM Sans", Arial;
+    font-weight: 400;
+    font-size: 18px; 
+    line-height: 30px;
+    }
+
+    .title {
+        color: var(--primary-color);
+        font-size: 36px;
+        line-height: 46px;
+        font-weight: 700;
+    }
+
+    .title__title-h1 {
+        font-size: 56px;
+        line-height: 66px;
+    }
+
+    .title__title-h2_align-center {
+        text-align: center;
+    }
+
+    .title__title-h2_black {
+        color: #1E285F;
+    }
+
+    .features__title-h3 {
+        color: var(--primary-color);
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 28px;
+    }
+
+    .features__title-h3_align-center {
+        text-align: center;
+    }
+
+    .text_align-center {
+        text-align: center;
+    }
+
+    .features__link {
+        color: #8D8BA7;
+        font-size: 18px;
+        font-weight: 700;
+
+    }
+
+    .features__link_xl {
+        display: block;
+        text-align: center;
+    }
+
+    .features__link:active {
+        color: #1500ff;
+   }
+
+   .features__link:visited {
+    color: rgba(143, 0, 255, 0.62);
+}
+
+    .features__link:hover {
+        color: var(--primary-color);
+    }
+
+    .features__link:active {
+        color: #1500ff;
+   }
+
+   .features__item_xl {
+    text-align: center;
+   }
+
+    .button {
+        background-color: var(--primary-color);
+    }
+    
+    .button_secondary{
+        background-color: transparent;
+    }
+    
+    .button_primary {
+        color: white;
+    }
+
+    .button_primary:hover {
+        color: #5F5C7F;
+    }
+    
+    .button_primary:active {
+        color: #A4A2C4;
+    }
+    
+    .button_secondary:hover {
+        color: #F6F5FF;
+    }
+    
+    .button_secondary:active {
+        color: #EFEEFB;
+    }
+
+    .text_big-size {
+        font-size: 22px;
+        line-height: 36px;
+    }
+
+    .table__row-head, .payments__table-foot {
+        font-size: 15px;
+        line-height: 45px;
+    }
+
+    .payments__table-body {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .results {
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .results__indicator {
+        line-height: 50px;
+        font-size: 44px;
+    }
+
+    .header-nav, .companies {
+    background-color: #F9F9FF;
+    }
+
+.account__col-title {
+    background-color: #F2F1FA;
+}
+
+.table__row1, .table__row3, .table__row5  {
+    background-color: #FAFAFA;
+}
+
+.features__item {
+    background-color: #F2F1FA;
+}
+
+.results__indicator {
+    color: var(--primary-color);
+}
+
+.header__link:visited {
+    color: rgba(143, 0, 255, 0.62);
+}
+
+.header__link:hover {
+    color: #1500FF;
+}
+
+.header__link:active {
+    color: #000000;
+}
+
+.footer__link:visited {
+    color: rgba(143, 0, 255, 0.62);
+}
+
+.footer__link:hover {
+    color: var(--primary-color)
+}
+
+.footer__link:active {
+    color: #1500FF;
+}
+
+.table__head-item {
+    color: #464A53;
+}
+
+.line-through {
+    text-decoration-line: line-through;
+}
+
+.italic, .italic-bold {
+    font-style: italic;
+}
+
+.italic-bold, .bold {
+     font-weight: bold; 
+  }
+
+.underlined {
+    text-decoration: underline;
+    color: #ADABC3;
+}
+
+.results__symbol {
+    color: #BCBACD;
+}
+
+.table-cell-1, .table-cell-3, .table-cell-4, .table-cell-6, .table-cell-7{
+    color: #6A707E;
+}
+
+.table__row5 {
+    color: #464A53;
+}
+
+/* styles to the layout with the css logo */
+
 .backround {
     height: 570px; 
     background-color: #F2F1FA;
@@ -68,71 +282,4 @@
     background-image: url(.//css.png), url(./img2.jpg);
     background-size: auto 50%, 100% auto;
     background-position: center, center;
-}
-
-
-
-.body {
-background-color: #fff;
-color: #9795B5;
-}
-
-.header-nav, .companies {
-    background-color: #F9F9FF;
-}
-
-.account__col-title {
-    background-color: #F2F1FA;
-}
-
-.table__row1, .table__row3, .table__row5  {
-background-color: #FAFAFA;
-}
-
-.button {
-    background-color: #5D5A88;
-}
-
-.button_secondary{
-    background-color: transparent;
-}
-
-.button_primary {
-    color: white;
-}
-
-.features__item {
-    background-color: #F2F1FA;
-}
-
-.title-h2 {
-    color: #5D5A88;
-}
-
-.title-h2_black {
-    color: #1E285F;
-}
-
-.header__link:hover {
-    color: #1500FF;
-}
-
-.header__link:active {
-    color: #000000;
-}
-
-.button_primary:hover {
-    color: #5F5C7F;
-}
-
-.button_primary:active {
-    color: #A4A2C4;
-}
-
-.button_secondary:hover {
-    color: #F6F5FF;
-}
-
-.button_secondary:active {
-    color: #EFEEFB;
 }
