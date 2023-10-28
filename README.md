@@ -1,3 +1,3 @@
-lesson_6
-Домашня робота додавання стилів
- https://alonka2022.github.io/lesson_6/
+lesson-7
+Домашня робота додавання стилів для тексту
+ https://alonka2022.github.io/lesson-7/
